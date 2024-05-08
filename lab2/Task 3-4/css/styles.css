@@ -1,0 +1,40 @@
+/* Для 1 эффекта*/
+body {
+	background-image: url('https://github.com/erv1988/Web-development-tasks-v2024/blob/master/02/img/mosaic.jpg?raw=true');
+	background-size: contain;
+	background-size: 10px 10px;
+	background-repeat: repeat-x space repeat-y;
+}
+
+/* для 2 эффекта 
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	flex-grow: 1;
+	background-image: url('https://github.com/erv1988/Web-development-tasks-v2024/blob/master/02/img/mosaic.jpg?raw=true');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	z-index: 1;
+}
+
+main::before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url('https://github.com/erv1988/Web-development-tasks-v2024/blob/master/02/img/mosaic.jpg?raw=true');
+	background-size: 1920px;
+	background-repeat: no-repeat;
+	filter: blur(10px);
+}
+*/

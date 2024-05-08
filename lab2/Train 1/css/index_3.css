@@ -1,0 +1,27 @@
+main {
+	background: url(https://raw.githubusercontent.com/erv1988/Web-development-tasks-v2024/master/02/img/background-vertical.jpg)
+		repeat-y center / cover;
+	padding-left: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+	font-size: larger;
+}
+
+.head-red {
+	color: red;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.head-under {
+	text-decoration: underline;
+}
+
+.a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+.paragraph {
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.2);
+}

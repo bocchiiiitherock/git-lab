@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Главная страница";
+}
+
+<div class="text-center welcome-container">
+    <div class="welcome-box">
+        <h1 class="display-4 welcome-header">Добро пожаловать!</h1>
+
+        <p class="lead welcome-text">Узнайте о <a href="https://youtu.be/Di8pqzCdyu8" class="music-link">музыкальной группе, </a> используя ASP.NET Core и Youtube.</p>
+        <img src="~/images/music-band.jpg" alt="Music Band"/>
+
+        <audio controls>
+            <source src="~/audio/music.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудиоэлемент.
+        </audio>
+    </div>
+</div>

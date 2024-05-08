@@ -1,0 +1,28 @@
+/** Пишем код здесь **/
+ul li:nth-child(odd) {
+	color: red;
+}
+
+ul li:nth-child(even) {
+	color: red;
+}
+
+ol li:nth-child(2) {
+	background-color: green;
+}
+
+table tr:nth-child(odd) {
+	background-color: yellow;
+}
+
+/********** READ-ONLY BLOCK ******
+Не изменять код ниже**/
+
+body {
+	color: blue;
+}
+
+ul li,
+ol li {
+	color: green;
+}

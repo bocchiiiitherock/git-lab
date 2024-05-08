@@ -1,0 +1,19 @@
+.header-list {
+	margin-left: 20px;
+}
+
+.Cola {
+	list-style-type: lower-alpha;
+}
+
+.Pepsi {
+	list-style-type: square;
+}
+
+.Health {
+	list-style-type: armenian;
+}
+
+.Coffee {
+	list-style-type: none;
+}
